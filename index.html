@@ -2,15 +2,21 @@
 <html lang="es">
 
 <head>
+    <!-- Metadatos -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo -->
+    <title>AluraPlay</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Reset CSS -->
     <link rel="stylesheet" href="./css/reset.css">
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/flexbox.css">
-    <title>AluraPlay</title>
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -19,9 +25,9 @@
     <header>
 
         <nav class="cabecera__container">
-
             <h1 class="logo__item" href="#"></h1>
 
+            <!-- Barra de búsqueda -->
             <div class="cabecera__buscar__item">
                 <form action="">
                     <input type="search" placeholder="Buscar" id="buscar" class="buscar__input">
@@ -30,6 +36,7 @@
                 <a href="#" class="cabecera__audio"></a>
             </div>
 
+            <!-- Iconos del usuario -->
             <div class="cabecera__iconos__item">
                 <a href="#" class="cabecera__videos"></a>
                 <a href="#" class="cabecera__apps"></a>
@@ -41,8 +48,7 @@
 
     </header>
 
-    <!-- Menu lateral -->
-
+    <!-- Menú lateral -->
     <aside class="menu__container">
         <ul class="menu__lista">
             <li>
@@ -76,6 +82,7 @@
             </li>
         </ul>
 
+        <!-- Lista de reproducción -->
         <ul class="menu__lista">
             <li>
                 <a class="menu__itens" href="#">
@@ -96,6 +103,7 @@
             </li>
         </ul>
 
+        <!-- Suscripciones -->
         <ul class="menu__lista">
             <li>
                 <a class="menu__itens" href="#">
@@ -150,6 +158,7 @@
             </li>
         </ul>
 
+        <!-- Temas recomendados -->
         <ul class="menu__lista">
             <li class="videojuegos">
                 <a class="menu__itens" href="#">
@@ -174,8 +183,7 @@
         </ul>
     </aside>
 
-    <!-- Sección superior -->
-
+    <!-- Filtros de contenido -->
     <section class="superior__seccion__container">
         <a class="superior__item" href="#">Todo</a>
         <a class="superior__item" href="#">Debates</a>
@@ -190,46 +198,55 @@
         <a class="superior__item" href="#">Marketing</a>
     </section>
 
-    <!-- Vídeos -->
-   
+    <!-- Lista de videos -->
     <ul class="videos__container">
         <li class="videos__item">
-            <iframe  width="100%"  height="72%" src="https://www.youtube.com/embed/PwheldW6V98?si=mJKUmresNkF_c4Q1" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/PwheldW6V98?si=mJKUmresNkF_c4Q1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             <div class="descripcion-video">
                 <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
                 <div class="detalles__video">
                     <h3>Descubre todo sobre el ChatGPT: Descifrando los Secretos de los Grandes</h3>
-                    <p>456  vistas - hace 2 semanas</p>
+                    <p>456 vistas - hace 2 semanas</p>
                 </div>
             </div>
         </li>
-       
+
         <li class="videos__item">
-            <iframe  width="100%"  height="72%" src="https://www.youtube.com/embed/r5T2aO9YXb0?si=aHWokvcs63ff33l1" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/r5T2aO9YXb0?si=aHWokvcs63ff33l1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             <div class="descripcion-video">
                 <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
                 <div class="detalles__video">
                     <h3>ChatGPT e Ingeniería de Prompts: técnicas para el prompt perfecto</h3>
-                    <p>618  vistas - hace 2 semanas</p>
+                    <p>618 vistas - hace 2 semanas</p>
                 </div>
             </div>
         </li>
+
         <li class="videos__item">
-            <iframe  width="100%"  height="72%" src="https://www.youtube.com/embed/qBrlvcQjrCA?si=NtRiXE2M6UXFpuVy" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/qBrlvcQjrCA?si=NtRiXE2M6UXFpuVy"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             <div class="descripcion-video">
                 <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
                 <div class="detalles__video">
                     <h3>Funcionalidad en foco: introducción a la programación funcional #Aluratips</h3>
-                    <p>242  vistas - hace 1 mes</p>
+                    <p>242 vistas - hace 1 mes</p>
                 </div>
             </div>
         </li>
+
         <li class="videos__item">
-            <iframe  width="100%"  height="72%" src="https://www.youtube.com/embed/xdzz3_WqFmE?si=K3vRJxqY2Xt9v2D4" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/xdzz3_WqFmE?si=K3vRJxqY2Xt9v2D4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             <div class="descripcion-video">
                 <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
                 <div class="detalles__video">
@@ -238,9 +255,12 @@
                 </div>
             </div>
         </li>
+
         <li class="videos__item">
-            <iframe  width="100%"  height="72%"src="https://www.youtube.com/embed/DeM2Ak8tWFU?si=z9eTmcwKMhbGnOSM" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/DeM2Ak8tWFU?si=z9eTmcwKMhbGnOSM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             <div class="descripcion-video">
                 <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
                 <div class="detalles__video">
@@ -249,18 +269,24 @@
                 </div>
             </div>
         </li>
+
         <li class="videos__item">
-            <iframe  width="100%"  height="72%" src="https://www.youtube.com/embed/b5M9ws0X3FQ?si=BByTwoZV_195ifW0"
-             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/b5M9ws0X3FQ?si=BByTwoZV_195ifW0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             <div class="descripcion-video">
                 <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
                 <h3>WebScraping y análisis de datos #aluramás</h3>
                 <p>266 vistas - hace 2 meses</p>
             </div>
         </li>
+
         <li class="videos__item">
-            <iframe  width="100%"  height="72%" src="https://www.youtube.com/embed/1EJ69twpnMo?si=77XLahry_zDuc666"
-             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/1EJ69twpnMo?si=77XLahry_zDuc666"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             <div class="descripcion-video">
                 <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
                 <div class="detalles__video">
@@ -269,9 +295,12 @@
                 </div>
             </div>
         </li>
+
         <li class="videos__item">
-            <iframe  width="100%"  height="72%" src="https://www.youtube.com/embed/SAusS82-xQ0?si=w0csFllv1LjuLs7O" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/SAusS82-xQ0?si=w0csFllv1LjuLs7O"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             <div class="descripcion-video">
                 <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
                 <div class="detalles__video">
@@ -280,9 +309,12 @@
                 </div>
             </div>
         </li>
+
         <li class="videos__item">
-            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/hNUuAYmGL1M?si=BLk4jJSDjyTHBoXO" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>></iframe>
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/hNUuAYmGL1M?si=BLk4jJSDjyTHBoXO"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>></iframe>
             <div class="descripcion-video">
                 <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
                 <div class="detalles__video">
@@ -291,9 +323,12 @@
                 </div>
             </div>
         </li>
+
         <li class="videos__item">
-            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/AULPtYo25Lw?si=Cp7Ovqt-8SBA_3tj" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/AULPtYo25Lw?si=Cp7Ovqt-8SBA_3tj"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             <div class="descripcion-video">
                 <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
                 <div class="detalles__video">
@@ -302,9 +337,12 @@
                 </div>
             </div>
         </li>
+
         <li class="videos__item">
-            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/zOetOoeOrOg?si=R64GU4elwkU-ce7V" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/zOetOoeOrOg?si=R64GU4elwkU-ce7V"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             <div class="descripcion-video">
                 <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
                 <div class="detalles__video">
@@ -313,9 +351,12 @@
                 </div>
             </div>
         </li>
+
         <li class="videos__item">
-            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/VKj8MlylaPg?si=3nhakwSHEgqM_RL6" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/VKj8MlylaPg?si=3nhakwSHEgqM_RL6"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             <div class="descripcion-video">
                 <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
                 <div class="detalles__video">
@@ -324,9 +365,12 @@
                 </div>
             </div>
         </li>
+
         <li class="videos__item">
-            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/CpL7-sbW2O0?si=nBPiodanhasOV7D8"
-             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/CpL7-sbW2O0?si=nBPiodanhasOV7D8"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             <div class="descripcion-video">
                 <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
                 <div class="detalles__video">
@@ -335,9 +379,12 @@
                 </div>
             </div>
         </li>
+
         <li class="videos__item">
-            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/QjOWz9avkg8?si=hLgmCHaYTWoHi03R" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/QjOWz9avkg8?si=hLgmCHaYTWoHi03R"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             <div class="descripcion-video">
                 <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
                 <div class="detalles__video">
@@ -346,9 +393,12 @@
                 </div>
             </div>
         </li>
+
         <li class="videos__item">
-            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/PztCEdIJITY?si=5fxDg327jUp5TA_X" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/PztCEdIJITY?si=5fxDg327jUp5TA_X"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             <div class="descripcion-video">
                 <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
                 <div class="detalles__video">
@@ -357,21 +407,24 @@
                 </div>
             </div>
         </li>
+
         <li class="videos__item">
-            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/3W983Q2NzRI?si=eCcE3jEyAUJu_tju" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/3W983Q2NzRI?si=eCcE3jEyAUJu_tju"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             <div class="descripcion-video">
                 <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
                 <div class="detalles__video">
-                    <h3>¿Qué es la lógica de programación  #AluraMás</h3>
+                    <h3>¿Qué es la lógica de programación #AluraMás</h3>
                     <p>95 k vistas - hace 1 año</p>
                 </div>
             </div>
         </li>
-        
-    </ul>  
+    </ul>
+    <!-- Fin Lista de videos -->
 
-    <!-- <SECCIÓN rodapié> -->
+    <!-- Footer-->
     <footer class="rodapie__container">
         <section>
             <h2 class="rodapie__titulo">Programación</h2>
