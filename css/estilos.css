@@ -1,3 +1,4 @@
+/* Variables CSS para colores y ajustes globales */
 *,
 *::before,
 *::after {
@@ -9,6 +10,7 @@
     box-sizing: border-box;
 }
 
+/* Estilos generales del cuerpo de la página */
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     background-color: var(--azul-claro);
@@ -22,8 +24,7 @@ body {
     text-align: center;
 }
 
-/* Cabecera */
-
+/* Contenedor principal de la cabecera */
 .cabecera__container {
     background-color: white;
     height: 80px;
@@ -31,6 +32,7 @@ body {
     padding: 0 25px;
 }
 
+/* Estilos del logo */
 .logo__item {
     background-image: url(../img/cabecera/Logo.png);
     background-repeat: no-repeat;
@@ -38,6 +40,7 @@ body {
     cursor: pointer;
 }
 
+/* Campo de entrada para búsqueda */
 .buscar__input {
     width: 260px;
     height: 32px;
@@ -47,6 +50,7 @@ body {
     border: 1px solid rgb(211, 211, 211);
 }
 
+/* Botón/etiqueta de búsqueda */
 .buscar__label {
     background-image: url(../img/cabecera/search.png);
     background-repeat: no-repeat;
@@ -58,12 +62,14 @@ body {
     cursor: pointer;
 }
 
+/* Icono de audio (oculto por defecto) */
 .cabecera__audio {
     background-image: url(../img/cabecera/mic.png);
     padding: 20px;
     display: none;
 }
 
+/* Icono de videos */
 .cabecera__videos {
     background-image: url(../img/cabecera/video_call.png);
     background-repeat: no-repeat;
@@ -71,6 +77,7 @@ body {
     padding: 20px;
 }
 
+/* Icono de aplicaciones */
 .cabecera__apps {
     background-image: url(../img/cabecera/apps.png);
     background-repeat: no-repeat;
@@ -78,6 +85,7 @@ body {
     padding: 13px 30px 13px 13px;
 }
 
+/* Icono de notificaciones */
 .cabecera__notificaciones {
     background-image: url(../img/cabecera/notifications.png);
     background-repeat: no-repeat;
@@ -85,6 +93,7 @@ body {
     padding: 13px 30px 13px 13px;
 }
 
+/* Avatar del usuario */
 .cabecera__avatar {
     background-image: url(../img/cabecera/Avatar.png);
     background-repeat: no-repeat;
@@ -92,18 +101,19 @@ body {
     padding: 13px 30px 13px 13px;
 }
 
-/* MENU LATERAL */
-
+/* Contenedor del menú lateral */
 .menu__container {
     background-color: var(--azul-oscuro);
     font-size: 14px;
 }
 
+/* Efecto hover en los ítems del menú */
 .menu__itens:hover {
     background-color: var(--azul-medio);
     transition: .5s;
 }
 
+/* Iconos del menú lateral usando pseudo-elementos */
 .icono__inicio::before {
     content: url(../img/menu/home.png);
 }
@@ -180,8 +190,7 @@ body {
     content: url(../img/menu/videojuegos.png);
 }
 
-/* SECCIÓN SUPERIOR */
-
+/* Contenedor de la sección superior (filtros/categorías) */
 .superior__seccion__container {
     height: 63px;
     color: white;
@@ -194,6 +203,7 @@ body {
     left: 0;
 }
 
+/* Estilos de los ítems/botones de la sección superior */
 .superior__item {
     color: var(--gris-texto);
     font-size: 16px;
@@ -203,19 +213,20 @@ body {
     cursor: pointer;
 }
 
+/* Efecto hover en los ítems de la sección superior */
 .superior__item:hover {
     color: white;
     background-color: var(--azul-oscuro);
     transition: .5s;
 }
 
-/* SECCIÓN VÍDEOS */
-
+/* Contenedor principal de los videos */
 .videos__container {
     color: black;
     padding: 153px 20px 10px 20px;
 }
 
+/* Efecto hover en los ítems de video */
 .videos__item:hover {
     transform: scale(1.3);
     background-color: var(--azul-claro);
@@ -223,18 +234,19 @@ body {
     transition: .5s;
 }
 
+/* Estilos del título del video */
 .detalles__video h3 {
     font-weight: 700;
     color: #444444;
 }
 
+/* Estilos del texto de descripción del video */
 .detalles__video p {
     font-size: 14px;
     color: #444444;
 }
 
-/* RODAPIÉ */
-
+/* Contenedor principal del rodapié (footer) */
 .rodapie__container {
     width: 100%;
     height: 875px;
@@ -244,19 +256,21 @@ body {
     background-color: white;
 }
 
+/* Título de las secciones del rodapié */
 .rodapie__titulo {
     color: var(--azul-medio);
     font-weight: bold;
     padding: 10px 0 20px 0;
 }
 
+/* Media Queries para pantallas medianas (min-width: 834px) */
 @media(min-width: 834px) {
 
     body {
         height: 100vh;
     }
 
-    /* ESTILOS DO MENU LATERAL */
+    /* Estilos del menu lateral */
 
     .menu__container {
         font-size: 14px;
@@ -270,7 +284,7 @@ body {
         width: 100%;
     }
 
-    /* ESTILOS DE LA SECCIÓN SUPERIOR */
+    /* Estilos de la seccion superios */
 
     .superior__seccion__container {
         border-top: var(--azul-medio) 1px solid;
@@ -279,7 +293,7 @@ body {
         left: 82px;
     }
 
-    /*ESTILOS DE LA SECCIÓN VÍDEOS */
+    /*Estilos de la seccion de videos */
 
     .videos__container {
         padding-left: 90px;
@@ -290,7 +304,7 @@ body {
         transform: scale(1.3);
     }
 
-    /* ESTILOS RODAPIÉ */
+    /* Estilos del rodapie */
 
     .rodapie__container {
         height: 420px;
@@ -299,28 +313,20 @@ body {
 
 }
 
+/* Media Queries para pantallas grandes (min-width: 1440px) */
 @media(min-width: 1440px) {
-
-    /* SECCIÓN SUPERIOR */
-
     .superior__seccion__container {
         left: 247px;
     }
-
-    /* ESTILOS DEL MENU LATERAL */
 
     .menu__lista {
         border-bottom: 1.5px solid var(--azul-medio);
     }
 
-    /* ESTILOS VIDEOS */
-
     .videos__container {
         padding-right: 10px;
         padding-left: 248px;
     }
-
-    /* ESTILOS RODAPIÉ */
 
     .rodapie__container {
         padding-left: 240px;
